@@ -1,6 +1,4 @@
-.App {
-  text-align: center;
-}
+
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +33,26 @@
   to {
     transform: rotate(360deg);
   }
+}
+#main{
+  display: flex;
+}
+#leftdiv{
+  width: 20vw;
+  height: 30vh;
+  border: 1px solid red;
+  margin-left: 35vw;
+}
+#leftdiv span{
+  margin-left: 2vw;
+ 
+}
+#rightdiv span{
+  margin-left: 2vw;
+ 
+}
+#rightdiv{
+  width: 15vw;
+  height: 30vh;
+  border: 1px solid green;
 }
